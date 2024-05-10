@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    width: 900px;
+    height: 550px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 2cm;
+    display: flex;
+}
+.user{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.user header{
+    width: 80%;
+    height: 30%;
+
+    margin: 0 auto;
+    margin-top: 1cm;
+    color: aliceblue;
+}
+.user header hr{
+    width: 50px;
+    height: 8px;
+    background-color: rgb(228, 17, 17);
+    border-radius: 4px;
+    margin-top: 0.2cm;
+}
+.user footer{
+    width: 80%;
+    height: 25%;
+
+    margin: 0 auto;
+    display: flex;
+justify-content:start;
+    align-items: center;
+    gap: 15px;
+    color: aliceblue;
+}
+.user footer img{
+    width: 120px;
+    height: 80px;
+    background-color: aqua;
+    border-radius: 300%;
+   
+}
+main{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+
+}
+main sup {
+    font-size: 17px;
+    padding: 15px;
+}
+main footer{
+ width: 540px;
+ height: 1000px;
+   display: flex;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   border-top: 1px solid rgb(215, 215, 215);
+   
+
+}
+.coment{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+}
